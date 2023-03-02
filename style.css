@@ -1,0 +1,573 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Navbar */
+
+.back {
+    position: absolute;
+    top: -50px;
+    z-index: -1;
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: normal;
+    font-family: 'Alatsi';
+}
+
+#home {
+    border-bottom: 3px solid rgba(114, 41, 182, 0.651);
+}
+
+.login {
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: 'Alatsi';
+    font-weight: normal;
+    background-color: white;
+    border: none;
+}
+
+.log {
+    margin-right: 100px;
+}
+
+.log a:hover {
+    text-decoration: none;
+}
+
+/* End Navbar */
+
+
+/* Header */
+.text {
+    padding-top: 150px;
+    margin-left: 60px;
+    text-align: start;
+}
+
+.one {
+    font-size: 45px;
+    font-family: 'Angkor';
+}
+
+.two {
+    font-size: 25px;
+    font-family: 'Alatsi';
+    color: gray;
+    margin-left: 5%;
+}
+
+span {
+    color: rgba(114, 41, 182, 0.651);
+}
+
+.images {
+    margin-left: -60px;
+}
+
+.img1 {
+    position: relative;
+    top: -50px;
+    left: -170px;
+}
+
+.img2 {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+}
+
+.img3 {
+    position: absolute;
+    left: -40px;
+    top: 420px;
+}
+
+.img4 {
+    position: absolute;
+    left: -900px;
+    top: 330px;
+    z-index: -1;
+}
+
+/* End Header */
+
+/* main */
+/* First Image */
+
+.line {
+    position: absolute;
+    left: 310px;
+    top: 105%;
+    z-index: -1;
+}
+
+.fsp {
+    margin-top: 70px;
+}
+
+.super {
+    color: #363535;
+    font-family: 'Beth Ellen';
+    text-align: center;
+    padding-top: 40px;
+    margin-left: -300px;
+    font-size: 30px;
+}
+
+.product {
+    color: #363535;
+    font-family: 'Alatsi';
+    text-align: center;
+    margin-left: -300px;
+    padding-top: 10px;
+}
+
+/* End First Image */
+
+/* Second Image */
+
+.olin {
+    margin-top: 200px;
+    margin-left: -50px;
+
+}
+
+.real {
+    margin-left: -380px;
+    font-size: 30px;
+    font-family: 'Beth Ellen';
+    text-align: center;
+    color: #363535;
+}
+
+.delivery {
+    margin-left: -380px;
+    font-size: 18px;
+    font-family: 'Alatsi';
+    text-align: center;
+    color: #363535;
+}
+
+/* End Second Image */
+
+/* Third Image */
+
+.trin {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.why {
+    position: relative;
+    left: 100px;
+    top: -220px;
+    color: white;
+    font-size: 23px;
+    font-family: 'Angkor';
+}
+
+.why h5 {
+    margin-left: 10px;
+}
+
+/* End Third Image */
+
+/* Forth Image */
+
+.dis {
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.ts {
+    text-align: center;
+    color: #363535;
+    padding-top: 12px;
+    font-family: 'Beth Ellen';
+    margin-left: 170px;
+}
+
+.discounts {
+    text-align: center;
+    color: #363535;
+    font-family: 'Alatsi';
+    margin-left: 170px;
+    padding-top: 10px;
+}
+
+/* End Forth Image */
+
+/* Fifth - sixth - seventh Images */
+
+.three {
+    padding-top: 100px;
+}
+
+.round {
+    text-align: center;
+}
+
+.clock {
+    font-size: 22px;
+    font-family: 'Beth Ellen';
+    margin-left: 50px;
+}
+
+.only {
+    font-size: 16px;
+    font-family: 'Alatsi';
+    margin-left: 60px;
+}
+
+.middle {
+    margin-top: -170px;
+    margin-left: -110px;
+}
+
+.side {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+/* End Fifth - sixth - seventh Images */
+
+/* Footer */
+
+footer {
+    margin-top: -90px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.background {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    margin-left: -100px;
+    margin-top: 90px;
+    z-index: -1;
+}
+
+.per {
+    position: absolute;
+    bottom: 370px;
+    left: -20%;
+    width: 800px;
+}
+
+.conact {
+    position: relative;
+    bottom: 400px;
+}
+
+.put {
+    display: flex;
+}
+
+.put button {
+    display: flex;
+    border-radius: 13px;
+    align-items: center;
+    padding: 3px 12px;
+    border: none;
+    margin: 7px;
+    margin-bottom: -10px;
+}
+
+.put h5 {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.put h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.blac {
+    margin: 10px;
+    margin-bottom: -2px;
+}
+
+.hrf a {
+    color: white;
+    margin: 10px;
+    font-family: 'Alatsi';
+}
+
+/* End Footer */
+
+@media screen and (max-width: 500px) {
+
+    /* Navbar */
+
+    .nav-item {
+        text-align: center;
+    }
+
+    #home {
+        margin-left: 72px;
+        width: 50%;
+    }
+
+    .login {
+        margin-left: 115px;
+    }
+
+    /* End Navbar */
+
+
+    /* Header */
+    .text {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        margin-left: 5px;
+    }
+
+    .one {
+        font-size: 24px;
+    }
+
+    .two {
+        font-size: 15px;
+        margin-left: 2%;
+    }
+
+    .img1 {
+        top: -50px;
+        left: -10px;
+        width: 400px;
+    }
+
+    .img2 {
+        top: -70px;
+        left: 30px;
+        width: 300px;
+    }
+
+    .img3 {
+        left: 30px;
+        top: 320px;
+        width: 300px;
+    }
+
+    .img4 {
+        width: 600px;
+        left: -180px;
+    }
+
+    /* End Header */
+
+    /* main */
+    /* First Image */
+
+    .line {
+        width: 500px;
+        left: -70px;
+        top: 1700px;
+        rotate: calc(80deg);
+    }
+
+    .fsp {
+        margin-top: 350px;
+        margin-left: 40px;
+    }
+
+    .super {
+        margin-left: -12px;
+    }
+
+    .product {
+        margin-left: -7px;
+        margin-bottom: -150px;
+    }
+
+    /* End First Image */
+
+    /* Second Image */
+
+    .olin {
+        margin-left: 30px;
+    }
+
+    .real {
+        margin-left: -7px;
+    }
+
+    .delivery {
+        margin-left: -7px;
+    }
+
+    /* End Second Image */
+
+    /* Third Image */
+
+    .trin {
+        padding-top: 80px;
+        padding-bottom: 0;
+        margin-left: -20px;
+        margin-top: -1150px;
+    }
+
+    .in {
+        width: 350px;
+    }
+
+    .why {
+        left: 30px;
+        top: -200px;
+        margin-left: 40px;
+    }
+
+    .why h5 {
+        margin-left: 0;
+    }
+
+    /* End Third Image */
+
+    /* Forth Image */
+
+    .dis {
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+
+    .ts {
+        margin-left: 10px;
+    }
+
+    .discounts {
+        margin-left: 10px;
+    }
+
+    /* End Forth Image */
+
+    /* Fifth - sixth - seventh Images */
+
+    .three {
+        padding-top: 10px;
+        margin-bottom: -450px;
+    }
+
+    .clock {
+        margin-left: 20px;
+    }
+
+    .only {
+        margin-left: 10px;
+    }
+
+    .middle {
+        margin-top: -220px;
+        margin-left: -60px;
+        width: 400px;
+    }
+
+    .side {
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+
+    #side1 {
+        position: relative;
+        bottom: -450px;
+        left: 120px;
+        width: 150px;
+    }
+
+    #side2 {
+        position: relative;
+        top: -70px;
+        left: -60px;
+        width: 170px;
+    }
+
+    .arrow {
+        margin-left: 10px;
+    }
+
+    /* End Fifth - sixth - seventh Images */
+
+    /* Footer */
+
+    .background {
+        width: 120%;
+        object-fit: contain;
+        margin-left: -10px;
+        margin-top: 190px;
+    }
+
+    .per {
+        bottom: 480px;
+        left: 40%;
+        width: 250px;
+    }
+
+    .conact {
+        position: relative;
+        bottom: 470px;
+    }
+
+    .put {
+        display: block;
+    }
+
+    .put button {
+        padding: 3px 12px;
+        margin: 17px;
+        margin-bottom: -12px;
+        background-color: black;
+        color: white;
+    }
+
+    .appl {
+        width: 20px;
+    }
+
+    .put h5 {
+        font-size: 7px;
+    }
+
+    .put h1 {
+        font-size: 10px;
+    }
+
+    .blac {
+        margin-top: -10px;
+        width: 20px;
+    }
+
+    #blac {
+        width: 15px;
+    }
+
+    .hrf {
+        display: none;
+    }
+}
